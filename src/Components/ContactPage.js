@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/ContactPage.css";
 import { useState } from "react";
-import { collection, addDoc } from "firebase/firestore";
+// import { collection, addDoc } from "firebase/firestore";
 import { db } from "../firebase-config";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -16,19 +16,19 @@ const ContactPage = (props) => {
     toast("Enter your email!");
   };
 
-  const handleContact2 = (e) => {
+  function handleContact2(e) {
     let body = document.querySelector(".body");
     if (!body.classList.contains("active")) {
     } else {
       props.func();
     }
-  };
+  }
 
   const [newName, setNewName] = useState("");
   const [newEmail, setNewEmail] = useState("");
   const [newMsg, setNewMsg] = useState("");
 
-  const contactCollectionRef = collection(db, "contact");
+  // const contactCollectionRef = collection(db, "contact");
 
   const handleSubmit = async () => {
     if (newName === "") {
@@ -44,13 +44,13 @@ const ContactPage = (props) => {
       toast("Enter your message!");
       return;
     }
-    console.log(newName, newEmail, newMsg);
-    await addDoc(contactCollectionRef, {
-      name: newName,
-      email: newEmail,
-      message: newMsg,
-      date: new Date().toString().slice(0, 24).replace("GMT+0530 (India Standard Time)", "IST"),
-    });
+    // console.log(newName, newEmail, newMsg);
+    // await addDoc(contactCollectionRef, {
+    //   name: newName,
+    //   email: newEmail,
+    //   message: newMsg,
+    //   date: new Date().toString().slice(0, 24).replace("GMT+0530 (India Standard Time)", "IST"),
+    // });
     notify();
     setNewEmail("");
     setNewMsg("");
