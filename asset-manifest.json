@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio--port1/static/css/main.542a22d3.css",
-    "main.js": "/Portfolio--port1/static/js/main.064cdc10.js",
-    "static/media/pic.webp": "/Portfolio--port1/static/media/pic.2524a5233ed09d870008.webp",
-    "static/media/guess-the-movie.webp": "/Portfolio--port1/static/media/guess-the-movie.3c32ba67549f0742e25e.webp",
-    "static/media/weather.webp": "/Portfolio--port1/static/media/weather.2f8f75bc1bb7acacccee.webp",
-    "static/media/text-analyzer.webp": "/Portfolio--port1/static/media/text-analyzer.3f9ea52f4f4cf1ce0215.webp",
-    "static/media/instagram.webp": "/Portfolio--port1/static/media/instagram.f038438cdc672b4a64a1.webp",
-    "static/media/github.webp": "/Portfolio--port1/static/media/github.2a5df899ec640f1d2c51.webp",
-    "static/media/linkedin.webp": "/Portfolio--port1/static/media/linkedin.b121765c6fd7998a8c99.webp",
-    "index.html": "/Portfolio--port1/index.html",
-    "main.542a22d3.css.map": "/Portfolio--port1/static/css/main.542a22d3.css.map",
-    "main.064cdc10.js.map": "/Portfolio--port1/static/js/main.064cdc10.js.map"
+    "main.css": "/Portfolio/static/css/main.542a22d3.css",
+    "main.js": "/Portfolio/static/js/main.82f3cd69.js",
+    "static/media/pic.webp": "/Portfolio/static/media/pic.2524a5233ed09d870008.webp",
+    "static/media/guess-the-movie.webp": "/Portfolio/static/media/guess-the-movie.3c32ba67549f0742e25e.webp",
+    "static/media/weather.webp": "/Portfolio/static/media/weather.2f8f75bc1bb7acacccee.webp",
+    "static/media/text-analyzer.webp": "/Portfolio/static/media/text-analyzer.3f9ea52f4f4cf1ce0215.webp",
+    "static/media/instagram.webp": "/Portfolio/static/media/instagram.f038438cdc672b4a64a1.webp",
+    "static/media/github.webp": "/Portfolio/static/media/github.2a5df899ec640f1d2c51.webp",
+    "static/media/linkedin.webp": "/Portfolio/static/media/linkedin.b121765c6fd7998a8c99.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.542a22d3.css.map": "/Portfolio/static/css/main.542a22d3.css.map",
+    "main.82f3cd69.js.map": "/Portfolio/static/js/main.82f3cd69.js.map"
   },
   "entrypoints": [
     "static/css/main.542a22d3.css",
-    "static/js/main.064cdc10.js"
+    "static/js/main.82f3cd69.js"
   ]
 }
